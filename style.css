@@ -1,0 +1,117 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("https://animesher.com/orig/1/180/1804/18044/animesher.com_nature-gif-beach-1804410.gif");
+  background-size: cover;
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+}
+
+
+
+.desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  margin: -10px;
+  color: #a8c4d7;
+  font-family: 'Comic Neue', cursive;
+}
+
+.quizButton {
+  border: 3px solid white;
+  font-style: italic;
+  font-family: 'Comic Neue', cursive;
+  color: white;
+  font-size: 30px;
+  margin: 25px;
+  background-color: #a8c4d7;
+  padding-bottom:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius:5px;
+  text-decoration:none;
+}
+
+.quizButton:hover {
+  transform: scale(1.1);
+  z-index: 102;
+  transition: 0.5s;
+}
+
+h1 {
+  font-size: 60px;
+  font-style: italic;
+  font-family: 'Comic Neue', cursive;
+  color: #a8c4d7;
+  margin-top:150px;
+}
+
+nav {
+  display:flex;
+  justify-content: space-around;
+  background-color: #EAE0d5ff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.navbar {
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+  background-color: #EAE0d5ff;
+  border: white solid 2px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.navbar:hover {
+  transform: scale(1.1);
+  z-index: 102;
+  transition: 0.5s;
+}
+
+footer {
+  display:flex;
+  justify-content:right;
+  align-items:center;
+  background-color: #EAE0d5ff;
+  border-radius: 10px;
+  position: absolute;
+  bottom:10px;
+  width:98.5%;
+  margin:0px;
+  font-family: 'Comic Neue', cursive;
+  color:white;
+  padding-right:20px;
+}
+
+.currentlyPlaying {
+  font-size:20px;
+}
+
+.fish {
+  margin-right: 20px;
+}
+
+.current {
+  background-color: white;
+  color: #EAE0d5ff;
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+  border: white solid 2px;
+  padding: 10px;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>🌊 ｡⋆⸜ 🎧₊˚</title>
+  <link href="quiz.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@500&family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <a href = "index.html"><button class="navbar">home</button></a>
+    <a href = "spotlight.html"><button class="navbar">artist spotlights</button></a>
+    <a href = "mood.html"><button class="navbar">mood playlists</button></a>
+    <a href = "genre.html"><button class="navbar">genres</button></a>
+    <a href = "team.html"><button class="navbar">team</button></a>
+  </nav>
+
+  <h1>Music Recommendation Quiz</h1>
+
+<!--Places-->
+  <section>
+    <div> 
+      <div>
+        <h3> Which place would you visit? </h3>
+        <h6> *Please check only one box per question* </h6>
+        <div class="container">
+          <label>
+            <img class = "forest-pic, imgs" src = "https://i.pinimg.com/564x/51/59/84/5159845d6f2da8f32c83d44bac28bcd3.jpg">
+            <input class = "imgs"type="checkbox" id="forest"> 
+          </label>
+  
+          <label>
+            <img class = "mount-pic, imgs" src = "https://i.pinimg.com/736x/fd/bc/14/fdbc143e8ec307489d96e4b4f9c625b0.jpg">
+            <input class = "imgs"type="checkbox" id="mountain"> 
+          </label>
+          
+        </div>
+      </div>
+      
+    <div class="container">
+      <label>
+        <img class = "beach, imgs" src="https://i.pinimg.com/originals/89/74/5a/89745a63f2068d793d23e47f79e65fbc.jpg">
+        <input class = "imgs"type= "checkbox" id="beach"> 
+      </label>
+
+      <label>
+        <img class = "city, imgs" src="https://pradaandpearls.com/wp-content/uploads/2021/02/Blank-600-x-900-282.jpg">
+          <input class = "imgs"type="checkbox" id="city">
+      </label>
+    </div>
+ 
+  </section>
+
+<!-- Seasons -->
+  <section>
+    <div>
+      <div>
+        <h3> What is your favorite season? </h3>
+        <div class="container">
+          <label>
+            <img class = "winter-pic" src = "https://pradaandpearls.com/wp-content/uploads/2020/12/daniel-j-schwarz-bQDrHXf_80c-unsplash-683x1024.jpg">
+            <input type="checkbox" class="season" id="winter">  
+          </label>
+
+          <label>
+            <img class = "spring-pic" src = "https://e0.pxfuel.com/wallpapers/534/656/desktop-wallpaper-aesthetic-pink-flower-pink-plants.jpg">
+            <input type="checkbox" class="season" id="spring">
+          </label>
+        </div>  
+      </div>
+
+      <div class="container">
+        <label>
+          <img class = "summer-pic" src="https://i.pinimg.com/1200x/02/b2/ee/02b2ee7d073a46a9829607b057a6db00.jpg">
+          <input type= "checkbox" class="season" id="summer">
+        </label>
+
+        <label>
+          <img class = "autumn-pic" src = "https://i.pinimg.com/736x/80/f0/bb/80f0bb80fed73adce2153586bd2e5752.jpg">
+          <input type="checkbox" class="season" id="autumn"> 
+        </label>
+    </div>
+  </section>
+
+<!-- Activities -->
+  <section>
+    <div>
+      <div>
+        <div>
+          <h3> What activity are you doing currently? </h3>
+          <div class="container">
+            <label>
+              <img class = "sports" src="https://www.wallart.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/w/0/w03202-small.jpg">
+              <input type="checkbox" id="sports">
+            </label>
+  
+            <label>
+              <img class = "reading" src="https://i.pinimg.com/736x/e0/a6/6f/e0a66ff0d619f36ae7f9af24e5ec9eb4.jpg">
+              <input type="checkbox" id="reading">
+            </label>
+          </div>  
+        </div>
+  
+        <div class="container">
+          <label>
+            <img class = "drawing" src="https://topdrawershop.com/cdn/shop/products/110-1004_artistnotebook_sketching_black_5.5x8.5_lifestyle1.jpg?v=1657289108">
+            <input type="checkbox" id="drawing">
+          </label>
+  
+          <label>
+            <img class = "work" src="https://i.pinimg.com/736x/e5/be/69/e5be69b1a960fc776fa685d78b9858fb.jpg">
+            <input type="checkbox" id="work">
+          </label>
+        </div>
+      </div>
+
+      <div class="container">
+        <label>
+          <img class = "chores-pic" src="https://www.ikea.com/ext/ingkadam/m/53f95ca0bf56eae3/original/PH187909-crop001.jpg?f=s">
+          <input type="checkbox" id="chores">
+        </label>
+      </div>  
+    </div>
+  </section>
+
+<!-- Animals -->
+  <section>
+    <div>
+      <div>
+        <div>
+          <h3> What is your favorite animal? </h3>
+          <div class="container">
+            <label>
+              <img class = "dog" src="https://images.unsplash.com/photo-1615751072497-5f5169febe17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80">
+              <input type="checkbox" id="dogs">
+            </label>
+  
+            <label>
+              <img class = "cat" src="https://i.pinimg.com/736x/4a/7b/0c/4a7b0c4dfd8150b03d1bb01f4b19197b.jpg">
+              <input type="checkbox" id="cats">
+            </label>
+          </div>  
+        </div>
+  
+        <div class="container">
+          <label>
+            <img class = "panda" src="https://images.unsplash.com/photo-1594231572357-212dafb85e9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80">
+            <input type="checkbox" id="pandas">
+          </label>
+  
+          <label>
+            <img class = "lion" src="https://cdn.pixabay.com/photo/2017/10/02/08/45/lion-cub-2808197_1280.jpg">
+            <input type="checkbox" id="lions">
+          </label>
+        </div>
+      </div>
+
+      <div class="container">
+        <label>
+          <img class = "sloths-pic" src="https://static.boredpanda.com/blog/wp-content/uploads/2016/10/cute-sloths-57f269182f5ab__700.jpg">
+          <input type="checkbox" id="sloths">
+        </label>
+      </div>  
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <div>
+        <div>
+          <h3> What is your favorite dessert? </h3>
+          <div class="container">
+            <label>
+              <img class = "icecream" src="https://d2w1ef2ao9g8r9.cloudfront.net/images/_sameSizeThumb/Ice-Cream-Shop-Thumbnail_2022-04-01-191249_xjqs.jpg">
+              <input type="checkbox" id="ice-cream">
+            </label>
+  
+            <label>
+              <img class = "donut" src="https://goodthingsbaking.com/wp-content/uploads/2020/03/Raised-Sourdough-Donuts-5.jpg">
+              <input type="checkbox" id="donuts">
+            </label>
+          </div>  
+        </div>
+  
+        <div class="container">
+          <label>
+            <img class = "darkchoco" src="https://delight-fuel.com/wp-content/uploads/2021/02/Raspberry_Bars_2-scaled-720x720.jpg">
+            <input type="checkbox" id="dark-chocolate">
+          </label>
+  
+          <label>
+            <img class = "cake" src="https://i.pinimg.com/originals/62/7d/74/627d7466d742e54c9abb09334f90e88e.jpg">
+            <input type="checkbox" id="cake">
+          </label>
+        </div>
+      </div>
+
+      <div class="container">
+        <label>
+          <img class = "cookies-pic" src="https://laneandgreyfare.com/wp-content/uploads/2022/07/Small-Batch-Chocolate-Chip-Cookies-9.jpg">
+          <input type="checkbox" id="cookies">
+        </label>
+      </div>  
+    </div>
+  </section>
+
+  <section class="final">
+    <input type="submit" text="submit" class="submit">
+  </section>
+    
+  <footer class = "foot">
+    <p class = "fish">𓆝 𓆟 𓆞𓆝 </p>
+    <p class= "currentlyPlaying" >Currently playing: Cat’s Cradle by Purrple Cat</p>
+  </footer>
+
+  <audio loop autoplay>
+    <source src = "Cats-Cradle.mp3" type = "audio/mp3">
+  </audio>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>

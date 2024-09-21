@@ -1,0 +1,207 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #d7ebff;
+}
+
+
+nav {
+  display:flex;
+  justify-content: space-around;
+  background-color: #EAE0d5ff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.navbar {
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+  background-color: #EAE0d5ff;
+  border: white solid 2px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.navbar:hover {
+  transform: scale(1.1);
+  z-index: 102;
+  transition: 0.5s;
+}
+
+div {
+  margin:auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #EAE0d5ff;
+  padding: 20px;
+  padding-top: 5px;
+  width:50%;
+  font-family: 'Comic Neue', cursive;
+  text-align:center;
+} 
+
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+} 
+
+footer {
+  display:flex;
+  justify-content:right;
+  align-items:flex-end;
+  background-color: #EAE0d5ff;
+  border-radius: 10px;
+  width:98.5%;
+  margin:0px;
+  font-family: 'Comic Neue', cursive;
+  color:white;
+  padding-right:20px;
+}
+
+.currentlyPlaying {
+  font-size:20px;
+}
+
+.fish {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Comic Neue', cursive;
+  color: white;
+}
+
+h6 {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  color: white;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  font-family: 'Comic Neue', cursive;
+  color: white;
+  width: 75%;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 5px;
+  object-fit:cover;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 60px;
+  font-style: italic;
+  font-family: 'Comic Neue', cursive;
+  color: #a8c4d7;
+  text-align: center;
+  width: 50%;
+  border: 5px solid #a8c4d7;
+  border-radius: 10px;
+  margin:auto;
+  margin-top: 20px;
+  padding:20px;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  background-color: #d7ebff;
+  border: 3px solid white;
+  font-family: 'Comic Neue', cursive;
+  color: white;
+  font-size: 30px;
+  margin: 25px;
+  background-color: #a8c4d7;
+  padding:10px;
+  border-radius:5px;
+}
+
+.submit:hover {
+  transform: scale(1.1);
+  z-index: 102;
+  transition: 0.5s;
+}
+
+.playlist {
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+  background-color: #a8c4d7;
+  border: white solid 2px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 20px;
+  margin:auto;
+  width: 30%;
+}
+
+a {
+  text-decoration: underline;
+  color:#a8c4d7;
+}
+
+.playlist:hover {
+  transform: scale(1.1);
+  z-index: 102;
+  transition: 0.5s;
+}
+
+
+.current {
+  background-color: white;
+  color: #EAE0d5ff;
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+  border: white solid 2px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0px;
+}
+
+.container label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.final {
+  display: grid;
+  place-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.test{
+  padding-left: 85px;
+  margin-top: 25px;
+  color: #a8c4d7;
+}
+
+.result {
+  display:flex;
+  flex-direction: column;
+  padding-bottom:30px;
+}
